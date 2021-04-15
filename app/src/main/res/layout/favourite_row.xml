@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="15dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/tvCityNameFavouriteRow"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="city Name"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/ivImageFavouriteRow" />
+
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+        <ImageView
+            android:id="@+id/ivImageFavouriteRow"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/tvDescFavouriteRow"
+            app:layout_constraintEnd_toStartOf="@+id/tvTempFavouriteRow"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvCityNameFavouriteRow"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/cloudy" />
+            />
+
+        <TextView
+
+            android:id="@+id/tvTempFavouriteRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:text="description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivImageFavouriteRow"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvDescFavouriteRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:text="temperature"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivImageFavouriteRow" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

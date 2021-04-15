@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">The Weather </string>
+    <string name="control_your_day">Control Your Day</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="weatherapp" translatable="false">WeatherApp</string>
+    <string name="weatherlogo" translatable="false">WeatherLogo</string>
+    <string name="open_drawer" translatable="false">Open</string>
+    <string name="close_drawer" translatable="false">Close</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="selectTime">Select Time</string>
+    <string name="selectDataTime">Select Date And Time</string>
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="startTime">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="select_time_to_get_notification_about_weather_state">Select Time To get Notification about Weather State</string>
+    <string name="select_time_to_check_weather_in_it">Select Time To Check Weather in it !</string>
+    <string name="create_custom_notification_to_fet_weather_state">Create Custom Notification To fetch Weather State</string>
+    <string name="do_you_want_to_repeated_it">Do you Want To Repeated It?</string>
+    <string name="done">Done</string>
+    <string name="to_get_best_information_must_select_notification_time_in_same_day_of_start_end_and_time">To Get Best Information Must Select Notification Time in Same Day Of Start End and Time</string>
+    <string name="clouds">Clouds</string>
+    <string name="pressure">Pressure</string>
+    <string name="windspeed">WindSpeed</string>
+    <string name="humidity">Humidity</string>
+    <string name="alarm_or_notification">Alarm Or Notification</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="custom_weather_alert">Custom Weather Alert</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="chooseLocation">Choose Location</string>
+    <string name="favouriteWeather">"Favourite Weather "</string>
+    <string name="weatherAlert">Weather Alert</string>
+    <string name="createAlert">Create Alert</string>
+    <string name="ywran">You Will receive All notification</string>
+    <string name="noRecceiveNotification">You Will no longer receive notification</string>
+    <string name="DisNotification">Disable Notifications</string>
+    <string name="unitSystem">System Unit </string>
+    <string name="language_system">System Language</string>
+    <string name="naa">Notification and Alert</string>
+    <string name="unitss">Units</string>
+    <string name="mylanguage">Language</string>
+    <string name="locationn">Location</string>
+    <string name="getlocation">Allow Map to get Another location </string>
+    <string name="anotherLocation">Use Map</string>
+    <string name="open_drawerr">open</string>
+    <string name="timeNow">Now</string>
+    <string name="Add">add</string>
+    <string name="descr">description</string>
+    <string name="from">From :</string>
+    <string name="to">To :</string>
+    <string name="Cityname">Cityname</string>
+</resources>

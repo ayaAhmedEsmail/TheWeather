@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/startTime"
+        app:layout_constraintStart_toEndOf="@+id/startTime"
+        tools:context=".view.ui.CreateAlertFragment">
+
+        <TextView
+            android:id="@+id/selectedDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:gravity="center"
+            android:hint="@string/selectDataTime"
+            android:textColorHint="@color/gray_light"
+            android:textSize="24sp"
+            app:drawableEndCompat="@drawable/ic_baseline_calendar_today_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.58"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinnerReapition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/gray_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <Spinner
+            android:id="@+id/spinnerAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/gray_light"
+            app:layout_constraintBottom_toTopOf="@+id/btnDoneCustomNotification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:text="@string/select_time_to_check_weather_in_it"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectedDate" />
+
+        <TextView
+            android:id="@+id/endTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/end_time"
+            android:textColorHint="@color/gray_light"
+            android:textSize="24sp"
+            android:layout_marginLeft="20sp"
+            app:drawableEndCompat="@drawable/ic_baseline_calendar_today_24"
+            app:layout_constraintBottom_toBottomOf="@+id/startTime"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/startTime"
+            app:layout_constraintTop_toTopOf="@+id/startTime"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="192dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:hint="@string/startTime"
+            android:textColorHint="@color/gray_light"
+            android:textSize="24sp"
+            app:drawableEndCompat="@drawable/ic_baseline_calendar_today_24"
+            app:layout_constraintEnd_toStartOf="@+id/endTime"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="@string/do_you_want_to_repeated_it"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startTime" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/alarm_or_notification"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerReapition" />
+
+        <Button
+            android:id="@+id/btnDoneCustomNotification"
+            android:layout_width="199dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/teal_700"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

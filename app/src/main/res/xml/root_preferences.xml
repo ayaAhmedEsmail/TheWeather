@@ -1,0 +1,57 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_location_on_24"
+        app:title="@string/locationn">
+
+        <SwitchPreferenceCompat
+            app:disableDependentsState="false"
+            app:key="deviceLocation"
+            app:title="@string/anotherLocation"
+            app:summary="@string/getlocation"
+             />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_notifications_active_24"
+        app:title="@string/naa">
+        <SwitchPreference
+            app:disableDependentsState="true"
+            app:key="notifications"
+            app:summaryOff="@string/ywran"
+            app:summaryOn="@string/noRecceiveNotification"
+            app:title="@string/DisNotification" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_info_24w"
+        app:title="@string/unitss">
+        <ListPreference
+            app:defaultValue="metric"
+            app:entries="@array/unitSystemEntries"
+            app:entryValues="@array/unitSystemValues"
+            app:key="unitSystem"
+            app:summary="%s"
+            app:title="@string/unitSystem"
+             />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_language_24"
+        app:title="@string/mylanguage">
+        <ListPreference
+            app:defaultValue="en"
+            app:entries="@array/langSystemEntries"
+            app:entryValues="@array/langSystemValues"
+            app:key="languageSystem"
+            app:summary="%s"
+            app:title="@string/language_system"
+             />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

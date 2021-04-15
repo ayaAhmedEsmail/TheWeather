@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Weather </string>
+    <string name="control_your_day">Your Day</string>
+    <string name="selectTime">اختر وقت</string>
+    <string name="selectDataTime">اختار الوقت والتاريخ</string>
+    <string name="startTime">من</string>
+    <string name="end_time">الي</string>
+    <string name="select_time_to_get_notification_about_weather_state"> اختر الوقت ليصلك اشعار عن حاله الطقس</string>
+    <string name="select_time_to_check_weather_in_it"> اختر الوقت لمعرفه حاله الطقس خلاله</string>
+    <string name="create_custom_notification_to_fet_weather_state">اشعار بحاله الطقس</string>
+    <string name="do_you_want_to_repeated_it">هل تريد تكراره؟</string>
+    <string name="done">تم</string>
+    <string name="to_get_best_information_must_select_notification_time_in_same_day_of_start_end_and_time">لكي تحصل علي ادق الاشعارات اختر وقت الاشعار في نفس قبل الوقت المحدد بساعات</string>
+    <string name="clouds">السحب</string>
+    <string name="pressure">الضغط</string>
+    <string name="windspeed">سرعه الرياح</string>
+    <string name="humidity">الرطوبه</string>
+    <string name="home">الصفحه الرئيسيه</string>
+    <string name="favourite">المفضله</string>
+    <string name="custom_weather_alert">المنبه</string>
+    <string name="settings">الاعدادات</string>
+    <string name="info">معلومات</string>
+    <string name="chooseLocation">اختر الموقع</string>
+    <string name="favouriteWeather">الطقس المفضل</string>
+    <string name="weatherAlert">اشعار الطقس</string>
+    <string name="alarm_or_notification">اشعار ام منبه</string>
+    <string name="createAlert">عمل منبه</string>
+    <string name="ywran">سوف تصلك كل الاشعارات </string>
+    <string name="noRecceiveNotification">لن تصلك اي الاشعارات</string>
+    <string name="DisNotification">الغاء الاشعارات</string>
+    <string name="unitSystem">الوحدات</string>
+    <string name="language_system">اللغه</string>
+    <string name="naa">الاشعارات و التنبيهات</string>
+    <string name="mylanguage">اللغه</string>
+    <string name="locationn">الموقع</string>
+    <string name="unitss">الوحدات</string>
+    <string name="getlocation">الحصول علي موقع اخر من الخريطه</string>
+    <string name="anotherLocation">استخدام موقع اخر</string>
+    <string name="open_drawerr">افتح</string>
+    <string name="Add">اضف</string>
+    <string name="timeNow">الوقت الحالى</string>
+    <string name="descr">وصف</string>
+    <string name="from">من :</string>
+    <string name="to">الى :</string>
+    <string name="Cityname">اسم المدينه</string>
+
+</resources>
